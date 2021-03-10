@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpecialPets</title>
+</head>
+<body style="background-color: blanchedalmond; padding: 2% 2%; font-weight: bold; font-size: 16px;">
+    <section style="
+        display: flex; 
+        justify-content: space-between; 
+        padding: 1% 10%;
+        ">
+        <a href="./index.html">
+            <img style="
+            width: 35px; 
+            border-radius: 30px; 
+            margin-right: 7%; 
+            position: absolute;
+            left: 2%;
+            top: 4%;
+            width: 50px;
+        " src="./홈.png">
+        </a>
+
+        <section style="
+        background-color: rgb(250, 240, 227);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        width: 25%;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3%;
+        ">
+            <a href="./Meerkat.html">
+                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./미어캣.png">
+            </a>
+            <span>미어캣</span>
+        </section>
+        <section style="
+        background-color: rgb(250, 240, 227);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        width: 25%;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3%;
+        ">
+            <a href="./Fox.html">
+                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./여우.jpg">
+            </a>
+            <span>여우</span>
+        </section>
+        <section style="
+        background-color: rgb(250, 240, 227);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        width: 25%;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3%;
+        ">
+            <a href="./Parrot.html">
+                <img style="width: 35px; border-radius: 8px; margin-right: 7%;" src="./패럿.jpg">
+            </a>
+            <span>패럿</span>
+        </section>
+        <section style="
+        background-color: rgb(250, 240, 227);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        width: 30%;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3%;
+        ">
+            <a href="./Hedgehog.html">
+                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./고슴도치.jpg">
+            </a>
+            <span>고슴도치</span>
+        </section>
+        <section style="
+        background-color: rgb(250, 240, 227);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        width: 25%;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ">
+            <a href="./Racoon.html">
+                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./라쿤.jpg">
+            </a>
+            <span>라쿤</span>
+        </section>
+    </section>
+    <table style="background-color: white; 
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        border-radius: 10px;
+        font-size: 17px;
+        line-height: 30px;
+        ">
+            <th>
+                <img style="height: 22rem; margin: 6%; border-radius: 20px;" src="data:image/jpeg;base64,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" 
+                title="미어캣" alt="미어캣">
+            </th>
+            <th style="padding: 3% 5%;">
+                <h3 style="color: rgb(207, 169, 62); ">야생의 미어캣은?</h3>
+                <p style="text-align: justify;">
+                    30마리 정도 집단생활을 하며 여러 통로와 입구가 있는 굴 속에서 서식한다. 
+                    다만, 주행성이라서 낮에는 굴에서 지내지 않고 자주 두 발로 서서 가슴과 
+                    배에 햇볕을 쬐는데 그 모습이 꽤 귀엽다. 두 다리로 일어서 있는 자세가 유명한데, 
+                    이는 자신의 천적 등을 경계하기 위해 보초를 서는 행동이다. 그래서 <mark style="background-color: lightgoldenrodyellow;">'사막의 파수꾼'</mark>
+                    이라는 별명이 붙었다. 새끼는 여왕만이 낳을 수 있다. 귀여운 외모와는 다르게 무정한 
+                    부분도 있는데, 자신의 딸이 번식이 가능해지는 나이(3살 정도)가 되면 여왕의 위치를
+                    지키기 위해 무리에서 쫓아내기도 한다. 하지만 여왕이 아기를 낳고 나서 위협이 되지
+                    않는다고 판단하면 아기를 키우는 유모로 쓰기위해 무리로 다시 불러들이기도 한다. 
+                    물론 딸이 임신하면 주저없이 내쫓는다. 먹이는 소형 포유류나 뱀, 곤충 및 전갈이나
+                    독거미. 미어캣은 전갈이나 독거미의 독에는 면역이 있다. 또, 몇몇 독사의 독에도 
+                    면역이 있는 것으로 알려졌다.
+                </p>
+            </th>
+            <tr>
+                <td style="text-align: center; color: rgb(207, 169, 62);">
+                    <h2 style="margin-left: 2%;">특별한 애완동물 <br>첫번째!</h2>
+                    <h2 style="margin-top: 12%;">미어캣 <br> (Meerkat) </h2>  
+                </td>
+                <td style="padding: 3% 5%; font-weight: bold; text-align: center;">
+                    <h3 style="color: rgb(207, 169, 62);">사육시 유의사항은?!</h3>
+                    <p style="text-align: justify;">
+                        미어캣은 <mark style="background-color: lightgoldenrodyellow;">보통 풀어 놓고 키우기</mark> 때문에 케이지는 미어캣이 편하게 잠을 잘 수 있을 정도의 크기면 된다. 
+                        하지만 케이지 안에 추가로 화장실을 만들 경우, 개체마다 다르지만 어느 정도 배변 훈련이 가능할 수 있다. 
+                        미어캣의 보금자리에 <mark style="background-color: lightgoldenrodyellow;">온열등이나 온열패드를 설치</mark>
+                        해 주는 것도 필수다. 먹이의 경우, 미어캣은 이것저것 다 잘 먹는다. 주식으로 고양이 사료, 미어캣 사료를 주면 된다.
+                        간식으로는 야채, 과일, 밀웜 등을 주는데, <mark style="background-color: lightgoldenrodyellow;">너무 많이 주게 될 경우 살이 찔 수 있으니 유의해야한다.</mark>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 3% 5%; font-weight: bold; text-align: center;">
+                    <h3 style="color: rgb(207, 169, 62);">애완 미어캣의 특징!</h3>
+                    <p style="text-align: justify; padding: 0 7%;">
+                        미어캣은 땅을 파는 습성이 강해서, <mark style="background-color: lightgoldenrodyellow;">여기저기 파고 긁는 행동을 많이 한다.</mark> 미어캣은 호기심이 많고, 사교성도 좋아 개체에 따라 사고뭉치가 될 수 있다. <mark style="background-color: lightgoldenrodyellow;">미어캣은 새끼 때부터 키우는 것이, 사회화와 함께 미어캣을 훈련 시킬 수 있기에 좋다.</mark>
+                        또한 미어캣은 새끼 때, 이가 자라면서 무는 버릇이 생기는 경우가 많으니, 새끼때 부터 낯선 사람과도 조금씩 접하게 해주시는 게 좋다. <mark style="background-color: lightgoldenrodyellow;">미어캣을 놀라게 하거나 겁을 먹었을 때 무는 경우가 많으니 주의해야한다.</mark> 가정에서 미어캣을 키우게 된 역사가 길지 않다 보니, 아직까지 확실한 정보가 많이 없는 편이다. <mark style="background-color: lightgoldenrodyellow;">개체마다 성격의 편차가 심한 편인데,</mark> 그러니 새끼 때 최대한 사람과 사회화할 수 있도록 케어에 신경 써야한다.
+                        미어캣은 원래 굴에서 생활했기 때문에, 여기저기 숨는 것을 좋아한다. 그러니 위험한 곳은 꼭 사전에 막아 두어야 한다. 미어캣은 주인 바보다.  주인을 계속해서 졸졸 따라다니고 붙어 있으려는 욕구가 강하다.
+                        <mark style="background-color: lightgoldenrodyellow;">미어캣은 배변 훈련이 어렵다.</mark> 대변의 경우 구석진 곳에 누는 특징이 있기는 하지만 항상 그렇지는 않다. 특히 소변의 경우에는 배변 훈련이 매우 힘들다.미어캣은 냄새가 거의 나지 않는 편이다. 대신에 대변에서는 냄새가 많이 나는 편이다.털 빠짐의 경우, 단모종의 강아지와 비슷한 수준으로 미어캣의 크기를 생각하면 엄청 우려할 정도는 아니다.
+                    </p>
+                </td>
+            </tr>
+            
+    </table>
+</body>
+</html>
