@@ -162,5 +162,6 @@ svg:hover{
 }
 
 .col-lg-4 > p {
+    color: rgb(114, 88, 18);
     text-align: center;
 }
