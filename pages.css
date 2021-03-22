@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: blanchedalmond; 
+    padding: 2% 7%; 
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+.nav{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 1% 10%;
+}
+
+.Navimg{
+    width: 35px; 
+    border-radius: 11px; 
+    margin-right: 7%;
+}
+
+.HomeBtn{
+    width: 35px; 
+    border-radius: 30px; 
+    margin-right: 7%; 
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    width: 50px;
+}
+
+.MKbtn{
+    background-color: rgb(250, 240, 227);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 25%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.HGbtn{
+    background-color: rgb(250, 240, 227);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 30%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.RCbtn{
+    background-color: rgb(250, 240, 227);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 25%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    background-color: white; 
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.pic{
+    height: 22rem; 
+    margin: 6%; 
+    border-radius: 20px;
+}
+
+.pic2{
+    height: 22rem; 
+    margin: 6%; 
+    border-radius: 20px; 
+    width: 360px;
+}
+
+.Animal{
+    padding: 3% 5%;
+    text-align: center;
+    margin-bottom: 8%;
+    
+}
+
+h3{
+    color: rgb(207, 169, 62);
+}
+
+.Animal3{
+    text-align: justify; 
+    padding: 0 7%;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    color: rgb(207, 169, 62);
+}
+
+.subtitle2{
+    padding-top: 13%;
+    margin: 2%;
+    line-height: 65px;
+}
+
+.subtitle3{
+    margin-top: 12%;
+}
+
+.Td1{
+    padding: 3% 5%; 
+    font-weight: bold; 
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+mark{
+    background-color: lightgoldenrodyellow;
+}
+
+.navcircle{
+    border-radius: 50%;
+}
+
+.navcircle2{
+    border-radius: 50%;
+    margin-left: 15%;
+}
+
+.col-lg-4{
+    padding: 0 8%;
+}
+
+svg{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-left: 23%;
+}
+
+svg:hover{
+    box-shadow: 0 3px 6px rgba(196, 192, 7, 0.582), 0 10px 16px rgba(153, 151, 25, 0.16);
+    margin-left: 30%;
+    
+}
+
+.navcontainer{
+    display: flex;
+    padding: 0 8%;
+    margin-bottom: 15%;
+}
+
+.col-lg-4 > p {
+    text-align: center;
+}

@@ -4,156 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages.css">
     <title>SpecialPets</title>
 </head>
-<body style="background-color: blanchedalmond; padding: 2% 2%; font-weight: bold; font-size: 16px;">
-    <section style="
-        display: flex; 
-        justify-content: space-between; 
-        padding: 1% 10%;
-        ">
+<body>
+    <section class="nav">
+        
         <a href="./index.html">
-            <img style="
-            width: 35px; 
-            border-radius: 30px; 
-            margin-right: 7%; 
-            position: absolute;
-            left: 2%;
-            top: 4%;
-            width: 50px;
-        " src="./홈.png">
-        </a>
+           <img class="HomeBtn" src="./홈.png">
+       </a>
+            
+       <section class="MKbtn">
+           <a href="./Meerkat.html">
+               <img class="Navimg" src="./미어캣.png">
+           </a>
+           <span>미어캣</span>
+       </section>
+       <section class="MKbtn">
+           <a href="./Fox.html">
+               <img class="Navimg" src="./여우.jpg">
+           </a>
+           <span>여우</span>
+       </section>
+       <section class="MKbtn">
+           <a href="./Parrot.html">
+               <img class="Navimg" src="./패럿.jpg">
+           </a>
+           <span>패럿</span>
+       </section>
+       <section class="HGbtn" >
+           <a href="./Hedgehog.html">
+               <img class="Navimg" src="./고슴도치.jpg">
+           </a>
+           <span>고슴도치</span>
+       </section>
+       <section class="RCbtn">
+           <a href="./Racoon.html">
+               <img class="Navimg" src="./라쿤.jpg">
+           </a>
+           <span>라쿤</span>
+       </section>
+   </section>
+    <div class="table">
+            <div class="subtitle">
+                <img class="pic" src="./패럿프로필.png" title="미어캣" alt="미어캣">
+                
+                <h2 class="subtitle2">특별한 애완동물 세번째!<br>패럿(Ferret)</h2>
+                
+            </div>
+        <div class="navcontainer">
+            <div class="col-lg-4">
+                <a href="#a"><svg class="navcircle" 
+                    width="120" 
+                    height="120" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img" 
+                    aria-label="navcircle" 
+                    preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    <rect width="100%" height="100%" fill="blanchedalmond"/>
+                    <text class="inside" x="25%" y="40%" fill="rgb(214, 180, 25)" dy=".3em">야생의</text>
+                    <text class="inside" x="25%" y="60%" fill="rgb(214, 180, 25)" dy=".3em">패럿은?</text>
+                </svg></a>
+        
+              
+                <p>야생에서의 패럿에 대해 알아봐요</p>
+            </div>
+            
+            <div class="col-lg-4">
+                <a href="#b"><svg class="navcircle" 
+                    width="120" 
+                    height="120" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img" 
+                    aria-label="navcircle" 
+                    preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    <rect width="100%" height="100%" fill="blanchedalmond"/>
+                    <text class="inside" x="28%" y="40%" fill="rgb(214, 180, 25)" dy=".3em">사육시</text>
+                    <text class="inside" x="12%" y="60%" fill="rgb(214, 180, 25)" dy=".3em">유의사항은?</text>
+                </svg></a>
+        
+              
+                <p>키우면서 반드시 알아야할 것들을 알아봐요</p>
+            </div>
 
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Meerkat.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./미어캣.png">
-            </a>
-            <span>미어캣</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Fox.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./여우.jpg">
-            </a>
-            <span>여우</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Parrot.html">
-                <img style="width: 35px; border-radius: 8px; margin-right: 7%;" src="./패럿.jpg">
-            </a>
-            <span>패럿</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 30%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Hedgehog.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./고슴도치.jpg">
-            </a>
-            <span>고슴도치</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        ">
-            <a href="./Racoon.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./라쿤.jpg">
-            </a>
-            <span>라쿤</span>
-        </section>
-    </section>
-    <table style="background-color: white; 
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        border-radius: 10px;
-        font-size: 17px;
-        line-height: 30px;
-        ">
-            <th>
-                <img style="height: 22rem; margin: 10%; border-radius: 20px;" src="./패럿프로필.png" 
-                title="패럿" alt="패럿">
-            </th>
-            <th style="padding: 3% 5%;">
-                <h3 style="color: rgb(207, 169, 62);">야생의 패럿은?</h3>
-                <p style="text-align: justify;">
+            <div class="col-lg-4">
+                <a href="#c"><svg class="navcircle2" 
+                    width="120" 
+                    height="120" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img" 
+                    aria-label="navcircle" 
+                    preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    <rect width="100%" height="100%" fill="blanchedalmond"/>
+                    <text class="inside" x="35%" y="40%" fill="rgb(214, 180, 25)" dy=".3em">애완</text>
+                    <text class="inside" x="27%" y="60%" fill="rgb(214, 180, 25)" dy=".3em">패럿은?</text>
+                </svg></a>
+        
+              
+                <p>애완 패럿의 특징들을 알아봐요</p>
+            </div>
+        </div>
+
+            <div id="a" class="Animal">
+                <h3>야생의 패럿은?</h3>
+                <p class="Animal3">
                     페럿은 족제비과에서 유일하게 가축화된 동물이며, 야생종인 긴털족제비의 아종 중 하나로 분류된다. 
-                    기원전 4세기경부터 가축화가 진행되었다고 알려져 있으며, <mark style="background-color: lightgoldenrodyellow;">야생성이 매우 희미해 사육사의 보호 없이는 야생에서 생존할 수 없다.</mark>
-                    하루 중 약 15시간의 시간은 잠을 자며, <mark style="background-color: lightgoldenrodyellow;">본디 야행성이지만 환경의 리듬에 따라 주행성이 되기도 한다.</mark> 수명은 약 8~10년이며 성체가 될 때까지 약 6개월이 걸린다. 
-                    암컷의 몸무게는 0.5~1kg 수컷의 몸무게는 1~2kg으로 수컷의 몸집이 더 크다. 소동물이지만 진동 등에 대해서는 햄스터 등의 짐승보다 덜 예민한 편이다.  
-            </th>
-            <tr>
-                <td style="text-align: center; color: rgb(207, 169, 62);">
-                    <h2 style="margin-left: 2%;">특별한 애완동물 <br>세번째!</h2>
-                    <h2 style="margin-top: 12%;">패럿 <br> (Ferret) </h2>  
-                </td>
-                <td style="padding: 3% 5%; font-weight: bold; text-align: center;">
-                    <h3 style="color: rgb(207, 169, 62);">사육시 유의사항은?!</h3>
-                    <p style="text-align: justify;">
-                        페럿을 반려 동물로 기르기 위해서는 <mark style="background-color: lightgoldenrodyellow;">중성화 수술과 취선 제거 수술이 꼭 필요한데</mark> 이는 페럿이 발정기때 교미를 하지 못하면 성호르몬 과다분비로 면역력에 치명적인 영향을 끼치고 
+                    기원전 4세기경부터 가축화가 진행되었다고 알려져 있으며, <mark>야생성이 매우 희미해 사육사의 보호 없이는 야생에서 생존할 수 없다.</mark>
+                    하루 중 약 15시간의 시간은 잠을 자며, <mark>본디 야행성이지만 환경의 리듬에 따라 주행성이 되기도 한다.</mark> 수명은 약 8~10년이며 성체가 될 때까지 약 6개월이 걸린다. 
+                    암컷의 몸무게는 0.5~1kg 수컷의 몸무게는 1~2kg으로 수컷의 몸집이 더 크다. 소동물이지만 진동 등에 대해서는 햄스터 등의 짐승보다 덜 예민한 편이다.
+                </p>  
+            </div>
+            
+                <div id="b" class="Td1">
+                    <h3>사육시 유의사항은?!</h3>
+                    <p class="Animal3">
+                        페럿을 반려 동물로 기르기 위해서는 <mark>중성화 수술과 취선 제거 수술이 꼭 필요한데</mark> 이는 페럿이 발정기때 교미를 하지 못하면 성호르몬 과다분비로 면역력에 치명적인 영향을 끼치고 
                         취선에서 나오는 족제비과 동물 특유의 악취가 페럿을 실내에서 기르기 힘든 동물로 만들기 때문이다. 그러므로 페럿을 분양받을 때에는 꼭 이 두 가지 사항을 꼭 확인해야 한다. 
-                        취선 제거 수술을 받아도 페럿은 족제비과 특유의 악취가 약간 나게 되는데 민감한 사람에게는 이것이 매우 불쾌하게 느껴질 수 있다.<mark style="background-color: lightgoldenrodyellow;">페럿은 고양이보다도 순수한 육식동물로서 
+                        취선 제거 수술을 받아도 페럿은 족제비과 특유의 악취가 약간 나게 되는데 민감한 사람에게는 이것이 매우 불쾌하게 느껴질 수 있다.<mark>페럿은 고양이보다도 순수한 육식동물로서 
                         고양이나 개의 사료는 적합하지 않다.</mark>  영양 불균형으로 인한 여러 질병들을 예방하기 위해서는 전용 사료를 먹여야 한다. 너무 말썽을 부리면 목덜미를 살짝 잡아주면 얌전해진다.
                         비누도 갉아먹고, 파이프를 들락날락하는 등 말썽을 많이 피우는데, 이유는 페럿이 워낙 장난기가 많은 동물이라 놀기 좋아해서 그렇다. 그러므로 페럿을 기를 땐 기르기에 충분한 환경을
-                         만들어주는 것이 좋다. <mark style="background-color: lightgoldenrodyellow;">어두운 잠자리를 마련해주고, 위험한 구멍은 철저히 막아야하며, 먹지 말아야하는 비누나 고무 등은 페럿이 갈 수 없는 곳에 두어야 한다.</mark>
-                         노령화될수록<mark style="background-color: lightgoldenrodyellow;"> 부신의 이상을 호소하는 페럿이 많으며</mark> 이 때 초기 증상으로 꼬리 주변의 털이 빠지기 시작한다. 수술비는 100-200만원대로 상당히 흔한 질병이니, 키우고자 하는 사람들은 
+                         만들어주는 것이 좋다. <mark>어두운 잠자리를 마련해주고, 위험한 구멍은 철저히 막아야하며, 먹지 말아야하는 비누나 고무 등은 페럿이 갈 수 없는 곳에 두어야 한다.</mark>
+                         노령화될수록<mark> 부신의 이상을 호소하는 페럿이 많으며</mark> 이 때 초기 증상으로 꼬리 주변의 털이 빠지기 시작한다. 수술비는 100-200만원대로 상당히 흔한 질병이니, 키우고자 하는 사람들은 
                         미리 페럿의 부신 질병에 대한 정보를 알아두어야 한다
                 </p>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding: 3% 5%; font-weight: bold; text-align: center;">
-                    <h3 style="color: rgb(207, 169, 62);">애완 패럿의 특징!</h3>
-                    <p style="text-align: justify; padding: 0 7%;">
-                        새끼일 때는 앞발을 사용하는 것이 서툴기 때문에, 곧잘 물기도 한다. 1년쯤 지나고 나면 거의 무는 행동이 없어지고, 앞발도 능숙하게 사용하게 된다. 그리고 페럿은 일정한 장소에서 일을 보기 때문에, <mark style="background-color: lightgoldenrodyellow;">별도로 화장실 훈련을 하지 않아도 된다.</mark>
-                        자유롭게 풀어 놓고 기를 수도 있지만, 주위의 이것저것을 물어뜯거나 먹어 버릴 염려가 있으므로 <mark style="background-color: lightgoldenrodyellow;">주인이 있을 때에만 풀어주어야 한다.</mark> 취선이 제거되지 않은 경우, 깜짝 놀라거나 하는 경우에 <mark style="background-color: lightgoldenrodyellow;">지독한 방귀를 발사하는 경우가 있다.</mark>
-                        신문지나 패드, 종이로 만든 인공 화장실 모래 등 <mark style="background-color: lightgoldenrodyellow;">부드러운 것을 보면 마구 씹으며 놀기를 좋아하니</mark>, 케이지 안에 장난감을 넣어주면 더욱 좋아한다. 물에서 목욕하기를 좋아하는 동물이기 때문에, 때로는 목욕을 시켜주는 것도 좋다.
+                </div>
+            
+            <div>
+                <div id="c" class="Td1" colspan="2">
+                    <h3>애완 패럿의 특징!</h3>
+                    <p class="Animal3">
+                        새끼일 때는 앞발을 사용하는 것이 서툴기 때문에, 곧잘 물기도 한다. 1년쯤 지나고 나면 거의 무는 행동이 없어지고, 앞발도 능숙하게 사용하게 된다. 그리고 페럿은 일정한 장소에서 일을 보기 때문에, <mark>별도로 화장실 훈련을 하지 않아도 된다.</mark>
+                        자유롭게 풀어 놓고 기를 수도 있지만, 주위의 이것저것을 물어뜯거나 먹어 버릴 염려가 있으므로 <mark>주인이 있을 때에만 풀어주어야 한다.</mark> 취선이 제거되지 않은 경우, 깜짝 놀라거나 하는 경우에 <mark>지독한 방귀를 발사하는 경우가 있다.</mark>
+                        신문지나 패드, 종이로 만든 인공 화장실 모래 등 <mark>부드러운 것을 보면 마구 씹으며 놀기를 좋아하니</mark>, 케이지 안에 장난감을 넣어주면 더욱 좋아한다. 물에서 목욕하기를 좋아하는 동물이기 때문에, 때로는 목욕을 시켜주는 것도 좋다.
                         페럿은 먹이를 한꺼번에 많이 먹지 않고, 조금씩 시간을 두고서 먹기 때문에 나누어 주는 것이 좋다. 수분이 너무 많은 먹이를 주거나, 물을 지나치게 많이 먹이면 설사를 할 수도 있다.
                     </p>
-                </td>
-            </tr>
-            
-    </table>
+                </div>
+            </div>
+    </div>
 </body>
 </html>

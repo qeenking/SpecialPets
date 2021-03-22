@@ -4,123 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages.css">
     <title>SpecialPets</title>
 </head>
-<body style="background-color: blanchedalmond; padding: 2% 2%; font-weight: bold; font-size: 16px;">
-    <section style="
-        display: flex; 
-        justify-content: space-between; 
-        padding: 1% 10%;
-        ">
+<body>
+    <section class="nav">
+        
         <a href="./index.html">
-            <img style="
-            width: 35px; 
-            border-radius: 30px; 
-            margin-right: 7%; 
-            position: absolute;
-            left: 2%;
-            top: 4%;
-            width: 50px;
-        " src="./홈.png">
-        </a>
+           <img class="HomeBtn" src="./홈.png">
+       </a>
+            
+       <section class="MKbtn">
+           <a href="./Meerkat.html">
+               <img class="Navimg" src="./미어캣.png">
+           </a>
+           <span>미어캣</span>
+       </section>
+       <section class="MKbtn">
+           <a href="./Fox.html">
+               <img class="Navimg" src="./여우.jpg">
+           </a>
+           <span>여우</span>
+       </section>
+       <section class="MKbtn">
+           <a href="./Parrot.html">
+               <img class="Navimg" src="./패럿.jpg">
+           </a>
+           <span>패럿</span>
+       </section>
+       <section class="HGbtn" >
+           <a href="./Hedgehog.html">
+               <img class="Navimg" src="./고슴도치.jpg">
+           </a>
+           <span>고슴도치</span>
+       </section>
+       <section class="RCbtn">
+           <a href="./Racoon.html">
+               <img class="Navimg" src="./라쿤.jpg">
+           </a>
+           <span>라쿤</span>
+       </section>
+   </section>
+    <div class="table">
+            <div class="subtitle">
+                <img class="pic" src="./미어캣프로필.jpg" title="미어캣" alt="미어캣">
+                
+                <h2 class="subtitle2">특별한 애완동물 첫번째!<br>미어캣(Meerkat)</h2>
+                
+            </div>
+        <div class="navcontainer">
+            <div class="col-lg-4">
+                <a href="#a"><svg class="navcircle" 
+                    width="120" 
+                    height="120" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img" 
+                    aria-label="navcircle" 
+                    preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    <rect width="100%" height="100%" fill="blanchedalmond"/>
+                    <text class="inside" x="30%" y="40%" fill="rgb(214, 180, 25)" dy=".3em">야생의</text>
+                    <text class="inside" x="20%" y="60%" fill="rgb(214, 180, 25)" dy=".3em">미어캣은?</text>
+                </svg></a>
+        
+              
+                <p>야생에서의 미어캣에 대해 알아봐요</p>
+            </div>
+            
+            <div class="col-lg-4">
+                <a href="#b"><svg class="navcircle" 
+                    width="120" 
+                    height="120" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img" 
+                    aria-label="navcircle" 
+                    preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    <rect width="100%" height="100%" fill="blanchedalmond"/>
+                    <text class="inside" x="28%" y="40%" fill="rgb(214, 180, 25)" dy=".3em">사육시</text>
+                    <text class="inside" x="12%" y="60%" fill="rgb(214, 180, 25)" dy=".3em">유의사항은?</text>
+                </svg></a>
+        
+              
+                <p>키우면서 반드시 알아야할 것들을 알아봐요</p>
+            </div>
 
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Meerkat.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./미어캣.png">
-            </a>
-            <span>미어캣</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Fox.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./여우.jpg">
-            </a>
-            <span>여우</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Parrot.html">
-                <img style="width: 35px; border-radius: 8px; margin-right: 7%;" src="./패럿.jpg">
-            </a>
-            <span>패럿</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 30%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 3%;
-        ">
-            <a href="./Hedgehog.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./고슴도치.jpg">
-            </a>
-            <span>고슴도치</span>
-        </section>
-        <section style="
-        background-color: rgb(250, 240, 227);
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        width: 25%;
-        padding: 1%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        ">
-            <a href="./Racoon.html">
-                <img style="width: 35px; border-radius: 11px; margin-right: 7%;" src="./라쿤.jpg">
-            </a>
-            <span>라쿤</span>
-        </section>
-    </section>
-    <table style="background-color: white; 
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        border-radius: 10px;
-        font-size: 17px;
-        line-height: 30px;
-        ">
-            <th>
-                <img style="height: 22rem; margin: 6%; border-radius: 20px;" src="./미어캣프로필.jpg" 
-                title="미어캣" alt="미어캣">
-            </th>
-            <th style="padding: 3% 5%;">
-                <h3 style="color: rgb(207, 169, 62); ">야생의 미어캣은?</h3>
-                <p style="text-align: justify;">
+            <div class="col-lg-4">
+                <a href="#c"><svg class="navcircle2" 
+                    width="120" 
+                    height="120" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img" 
+                    aria-label="navcircle" 
+                    preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    <rect width="100%" height="100%" fill="blanchedalmond"/>
+                    <text class="inside" x="35%" y="40%" fill="rgb(214, 180, 25)" dy=".3em">애완</text>
+                    <text class="inside" x="20%" y="60%" fill="rgb(214, 180, 25)" dy=".3em">미어캣은?</text>
+                </svg></a>
+        
+              
+                <p>애완 미어캣의 특징들을 알아봐요</p>
+            </div>
+        </div>
+
+            <div id="a" class="Animal">
+                <h3>야생의 미어캣은?</h3>
+                <p class="Animal3">
                     30마리 정도 집단생활을 하며 여러 통로와 입구가 있는 굴 속에서 서식한다. 
                     다만, 주행성이라서 낮에는 굴에서 지내지 않고 자주 두 발로 서서 가슴과 
                     배에 햇볕을 쬐는데 그 모습이 꽤 귀엽다. 두 다리로 일어서 있는 자세가 유명한데, 
-                    이는 자신의 천적 등을 경계하기 위해 보초를 서는 행동이다. 그래서 <mark style="background-color: lightgoldenrodyellow;">'사막의 파수꾼'</mark>
+                    이는 자신의 천적 등을 경계하기 위해 보초를 서는 행동이다. 그래서 <mark>'사막의 파수꾼'</mark>
                     이라는 별명이 붙었다. 새끼는 여왕만이 낳을 수 있다. 귀여운 외모와는 다르게 무정한 
                     부분도 있는데, 자신의 딸이 번식이 가능해지는 나이(3살 정도)가 되면 여왕의 위치를
                     지키기 위해 무리에서 쫓아내기도 한다. 하지만 여왕이 아기를 낳고 나서 위협이 되지
@@ -129,35 +123,30 @@
                     독거미. 미어캣은 전갈이나 독거미의 독에는 면역이 있다. 또, 몇몇 독사의 독에도 
                     면역이 있는 것으로 알려졌다.
                 </p>
-            </th>
-            <tr>
-                <td style="text-align: center; color: rgb(207, 169, 62);">
-                    <h2 style="margin-left: 2%;">특별한 애완동물 <br>첫번째!</h2>
-                    <h2 style="margin-top: 12%;">미어캣 <br> (Meerkat) </h2>  
-                </td>
-                <td style="padding: 3% 5%; font-weight: bold; text-align: center;">
-                    <h3 style="color: rgb(207, 169, 62);">사육시 유의사항은?!</h3>
-                    <p style="text-align: justify;">
-                        미어캣은 <mark style="background-color: lightgoldenrodyellow;">보통 풀어 놓고 키우기</mark> 때문에 케이지는 미어캣이 편하게 잠을 잘 수 있을 정도의 크기면 된다. 
-                        하지만 케이지 안에 추가로 화장실을 만들 경우, 개체마다 다르지만 어느 정도 배변 훈련이 가능할 수 있다. 
-                        미어캣의 보금자리에 <mark style="background-color: lightgoldenrodyellow;">온열등이나 온열패드를 설치</mark>
-                        해 주는 것도 필수다. 먹이의 경우, 미어캣은 이것저것 다 잘 먹는다. 주식으로 고양이 사료, 미어캣 사료를 주면 된다.
-                        간식으로는 야채, 과일, 밀웜 등을 주는데, <mark style="background-color: lightgoldenrodyellow;">너무 많이 주게 될 경우 살이 찔 수 있으니 유의해야한다.</mark>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding: 3% 5%; font-weight: bold; text-align: center;">
-                    <h3 style="color: rgb(207, 169, 62);">애완 미어캣의 특징!</h3>
-                    <p style="text-align: justify; padding: 0 7%;">
-                        미어캣은 땅을 파는 습성이 강해서, <mark style="background-color: lightgoldenrodyellow;">여기저기 파고 긁는 행동을 많이 한다.</mark> 미어캣은 호기심이 많고, 사교성도 좋아 개체에 따라 사고뭉치가 될 수 있다. <mark style="background-color: lightgoldenrodyellow;">미어캣은 새끼 때부터 키우는 것이, 사회화와 함께 미어캣을 훈련 시킬 수 있기에 좋다.</mark>
-                        또한 미어캣은 새끼 때, 이가 자라면서 무는 버릇이 생기는 경우가 많으니, 새끼때 부터 낯선 사람과도 조금씩 접하게 해주시는 게 좋다. <mark style="background-color: lightgoldenrodyellow;">미어캣을 놀라게 하거나 겁을 먹었을 때 무는 경우가 많으니 주의해야한다.</mark> 가정에서 미어캣을 키우게 된 역사가 길지 않다 보니, 아직까지 확실한 정보가 많이 없는 편이다. <mark style="background-color: lightgoldenrodyellow;">개체마다 성격의 편차가 심한 편인데,</mark> 그러니 새끼 때 최대한 사람과 사회화할 수 있도록 케어에 신경 써야한다.
-                        미어캣은 원래 굴에서 생활했기 때문에, 여기저기 숨는 것을 좋아한다. 그러니 위험한 곳은 꼭 사전에 막아 두어야 한다. 미어캣은 주인 바보다.  주인을 계속해서 졸졸 따라다니고 붙어 있으려는 욕구가 강하다.
-                        <mark style="background-color: lightgoldenrodyellow;">미어캣은 배변 훈련이 어렵다.</mark> 대변의 경우 구석진 곳에 누는 특징이 있기는 하지만 항상 그렇지는 않다. 특히 소변의 경우에는 배변 훈련이 매우 힘들다.미어캣은 냄새가 거의 나지 않는 편이다. 대신에 대변에서는 냄새가 많이 나는 편이다.털 빠짐의 경우, 단모종의 강아지와 비슷한 수준으로 미어캣의 크기를 생각하면 엄청 우려할 정도는 아니다.
-                    </p>
-                </td>
-            </tr>
+            </div>
             
-    </table>
+                <div id="b" class="Td1">
+                    <h3>사육시 유의사항은?!</h3>
+                    <p class="Animal3">
+                        미어캣은 <mark>보통 풀어 놓고 키우기</mark> 때문에 케이지는 미어캣이 편하게 잠을 잘 수 있을 정도의 크기면 된다. 
+                        하지만 케이지 안에 추가로 화장실을 만들 경우, 개체마다 다르지만 어느 정도 배변 훈련이 가능할 수 있다. 
+                        미어캣의 보금자리에 <mark>온열등이나 온열패드를 설치</mark>
+                        해 주는 것도 필수다. 먹이의 경우, 미어캣은 이것저것 다 잘 먹는다. 주식으로 고양이 사료, 미어캣 사료를 주면 된다.
+                        간식으로는 야채, 과일, 밀웜 등을 주는데, <mark>너무 많이 주게 될 경우 살이 찔 수 있으니 유의해야한다.</mark>
+                    </p>
+                </div>
+            
+            <div>
+                <div id="c" class="Td1" colspan="2">
+                    <h3>애완 미어캣의 특징!</h3>
+                    <p class="Animal3">
+                        미어캣은 땅을 파는 습성이 강해서, <mark>여기저기 파고 긁는 행동을 많이 한다.</mark> 미어캣은 호기심이 많고, 사교성도 좋아 개체에 따라 사고뭉치가 될 수 있다. <mark>미어캣은 새끼 때부터 키우는 것이, 사회화와 함께 미어캣을 훈련 시킬 수 있기에 좋다.</mark>
+                        또한 미어캣은 새끼 때, 이가 자라면서 무는 버릇이 생기는 경우가 많으니, 새끼때 부터 낯선 사람과도 조금씩 접하게 해주시는 게 좋다. <mark>미어캣을 놀라게 하거나 겁을 먹었을 때 무는 경우가 많으니 주의해야한다.</mark> 가정에서 미어캣을 키우게 된 역사가 길지 않다 보니, 아직까지 확실한 정보가 많이 없는 편이다. <mark>개체마다 성격의 편차가 심한 편인데,</mark> 그러니 새끼 때 최대한 사람과 사회화할 수 있도록 케어에 신경 써야한다.
+                        미어캣은 원래 굴에서 생활했기 때문에, 여기저기 숨는 것을 좋아한다. 그러니 위험한 곳은 꼭 사전에 막아 두어야 한다. 미어캣은 주인 바보다.  주인을 계속해서 졸졸 따라다니고 붙어 있으려는 욕구가 강하다.
+                        <mark>미어캣은 배변 훈련이 어렵다.</mark> 대변의 경우 구석진 곳에 누는 특징이 있기는 하지만 항상 그렇지는 않다. 특히 소변의 경우에는 배변 훈련이 매우 힘들다.미어캣은 냄새가 거의 나지 않는 편이다. 대신에 대변에서는 냄새가 많이 나는 편이다.털 빠짐의 경우, 단모종의 강아지와 비슷한 수준으로 미어캣의 크기를 생각하면 엄청 우려할 정도는 아니다.
+                    </p>
+                </div>
+            </div>
+    </div>
 </body>
 </html>
